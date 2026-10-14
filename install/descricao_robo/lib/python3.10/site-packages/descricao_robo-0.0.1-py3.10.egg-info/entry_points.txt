@@ -1,0 +1,3 @@
+[console_scripts]
+controlador_turtle = descricao_robo.controlador_turtle:main
+

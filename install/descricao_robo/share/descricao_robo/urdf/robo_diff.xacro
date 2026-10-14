@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!-- ===================================================================
+     robo_diff.xacro
+     DR3 / TP1 - Exercicio 3
+     Versao parametrica do robo_diff.
+     Parametro exigido pelo enunciado: raio_roda, valor padrao 0.05
+     Expandir manualmente:  xacro robo_diff.xacro > robo_diff_gerado.urdf
+     =================================================================== -->
+<robot name="robo_diff" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ========================== PROPRIEDADES ========================== -->
+  <xacro:property name="raio_roda"    value="0.05"/>
+  <xacro:property name="larg_roda"    value="0.04"/>
+  <xacro:property name="base_x"       value="0.30"/>
+  <xacro:property name="base_y"       value="0.20"/>
+  <xacro:property name="base_z"       value="0.10"/>
+  <xacro:property name="massa_base"   value="2.0"/>
+  <xacro:property name="massa_roda"   value="0.3"/>
+  <xacro:property name="raio_apoio"   value="0.025"/>
+
+  <!-- posicoes derivadas: mudar raio_roda reposiciona tudo automaticamente -->
+  <xacro:property name="z_eixo"   value="${-base_z/2}"/>
+  <xacro:property name="y_roda"   value="${base_y/2 + larg_roda/2}"/>
+  <xacro:property name="z_apoio"  value="${z_eixo - raio_roda + raio_apoio}"/>
+
+  <material name="azul">
+    <color rgba="0.20 0.40 0.80 1.0"/>
+  </material>
+  <material name="preto">
+    <color rgba="0.15 0.15 0.15 1.0"/>
+  </material>
+
+  <!-- ============================= MACRO ============================== -->
+  <!-- Uma unica definicao serve para as duas rodas: o lado entra
+       como argumento e vale +1 (esquerda) ou -1 (direita).          -->
+  <xacro:macro name="roda_tracao" params="nome lado">
+    <link name="${nome}">
+      <visual>
+        <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        <geometry>
+          <cylinder radius="${raio_roda}" length="${larg_roda}"/>
+        </geometry>
+        <material name="preto"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        <geometry>
+          <cylinder radius="${raio_roda}" length="${larg_roda}"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="${massa_roda}"/>
+        <inertia
+          ixx="${massa_roda*(3*raio_roda*raio_roda + larg_roda*larg_roda)/12}"
+          ixy="0.0" ixz="0.0"
+          iyy="${massa_roda*(3*raio_roda*raio_roda + larg_roda*larg_roda)/12}"
+          iyz="0.0"
+          izz="${massa_roda*raio_roda*raio_roda/2}"/>
+      </inertial>
+    </link>
+
+    <joint name="junta_${nome}" type="continuous">
+      <parent link="base_link"/>
+      <child  link="${nome}"/>
+      <origin xyz="0 ${lado * y_roda} ${z_eixo}" rpy="0 0 0"/>
+      <axis   xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- ============================ CHASSI ============================== -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${base_x} ${base_y} ${base_z}"/>
+      </geometry>
+      <material name="azul"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${base_x} ${base_y} ${base_z}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="${massa_base}"/>
+      <inertia ixx="${massa_base*(base_y*base_y + base_z*base_z)/12}"
+               ixy="0.0" ixz="0.0"
+               iyy="${massa_base*(base_x*base_x + base_z*base_z)/12}"
+               iyz="0.0"
+               izz="${massa_base*(base_x*base_x + base_y*base_y)/12}"/>
+    </inertial>
+  </link>
+
+  <!-- ============================= RODAS ============================== -->
+  <xacro:roda_tracao nome="roda_esq" lado="1"/>
+  <xacro:roda_tracao nome="roda_dir" lado="-1"/>
+
+  <!-- ========================== RODA DE APOIO ========================= -->
+  <link name="roda_apoio">
+    <visual>
+      <geometry>
+        <sphere radius="${raio_apoio}"/>
+      </geometry>
+      <material name="preto"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="${raio_apoio}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="2.5e-5" ixy="0.0" ixz="0.0"
+               iyy="2.5e-5" iyz="0.0" izz="2.5e-5"/>
+    </inertial>
+  </link>
+
+  <joint name="junta_roda_apoio" type="fixed">
+    <parent link="base_link"/>
+    <child  link="roda_apoio"/>
+    <origin xyz="${base_x/2 - 0.03} 0 ${z_apoio}" rpy="0 0 0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/descricao_robo/descricao_robo.egg-info
+writing ../../build/descricao_robo/descricao_robo.egg-info/PKG-INFO
+writing dependency_links to ../../build/descricao_robo/descricao_robo.egg-info/dependency_links.txt
+writing entry points to ../../build/descricao_robo/descricao_robo.egg-info/entry_points.txt
+writing requirements to ../../build/descricao_robo/descricao_robo.egg-info/requires.txt
+writing top-level names to ../../build/descricao_robo/descricao_robo.egg-info/top_level.txt
+writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'
+reading manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'
+writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eduardo/ros2_ws/build/descricao_robo/build
+creating /home/eduardo/ros2_ws/build/descricao_robo/build/lib
+creating /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo
+copying descricao_robo/__init__.py -> /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo
+copying descricao_robo/controlador_turtle.py -> /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo
+running install
+running install_lib
+creating /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo
+copying /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo/__init__.py -> /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo
+copying /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo/controlador_turtle.py -> /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo
+byte-compiling /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo/controlador_turtle.py to controlador_turtle.cpython-310.pyc
+running install_data
+creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index
+creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index
+creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index/packages
+copying resource/descricao_robo -> /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index/packages
+copying package.xml -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo
+creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+copying urdf/torre_sensor.urdf -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+copying urdf/robo_diff.urdf -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+copying urdf/torre_sensor.xacro -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+copying urdf/robo_diff.xacro -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+copying launch/turtlesim_nav.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+copying launch/visualizar.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+copying launch/gazebo.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+copying launch/visualizar_xacro.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/rviz
+copying rviz/robo_diff.rviz -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/rviz
+running install_egg_info
+Copying ../../build/descricao_robo/descricao_robo.egg-info to /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo-0.0.1-py3.10.egg-info
+running install_scripts
+Installing controlador_turtle script to /home/eduardo/ros2_ws/install/descricao_robo/lib/descricao_robo
+writing list of installed files to '/home/eduardo/ros2_ws/build/descricao_robo/install.log'

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!-- ===================================================================
+     robo_diff.urdf
+     DR3 / TP1 - Exercicio 2  (referencia do professor)
+     Robo diferencial: base 0.30 x 0.20 x 0.10 m,
+     duas rodas continuous no eixo Y e uma roda de apoio fixed.
+     Coerencia geometrica: os tres apoios tocam z = -0.10 m
+       roda  : -0.05 - 0.05  = -0.10
+       apoio : -0.075 - 0.025 = -0.10
+     =================================================================== -->
+<robot name="robo_diff">
+
+  <material name="azul">
+    <color rgba="0.20 0.40 0.80 1.0"/>
+  </material>
+  <material name="preto">
+    <color rgba="0.15 0.15 0.15 1.0"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.3 0.2 0.1"/>
+      </geometry>
+      <material name="azul"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.3 0.2 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.0"/>
+      <!-- caixa solida: ixx=m/12*(y^2+z^2), iyy=m/12*(x^2+z^2), izz=m/12*(x^2+y^2) -->
+      <inertia ixx="0.00833" ixy="0.0" ixz="0.0"
+               iyy="0.01667" iyz="0.0" izz="0.02167"/>
+    </inertial>
+  </link>
+
+  <link name="roda_esq">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+      <material name="preto"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.3"/>
+      <inertia ixx="0.00023" ixy="0.0" ixz="0.0"
+               iyy="0.00023" iyz="0.0" izz="0.00038"/>
+    </inertial>
+  </link>
+
+  <joint name="junta_roda_esq" type="continuous">
+    <parent link="base_link"/>
+    <child  link="roda_esq"/>
+    <origin xyz="0 0.12 -0.05" rpy="0 0 0"/>
+    <axis   xyz="0 1 0"/>
+  </joint>
+
+  <link name="roda_dir">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+      <material name="preto"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.3"/>
+      <inertia ixx="0.00023" ixy="0.0" ixz="0.0"
+               iyy="0.00023" iyz="0.0" izz="0.00038"/>
+    </inertial>
+  </link>
+
+  <joint name="junta_roda_dir" type="continuous">
+    <parent link="base_link"/>
+    <child  link="roda_dir"/>
+    <origin xyz="0 -0.12 -0.05" rpy="0 0 0"/>
+    <axis   xyz="0 1 0"/>
+  </joint>
+
+  <link name="roda_apoio">
+    <visual>
+      <geometry>
+        <sphere radius="0.025"/>
+      </geometry>
+      <material name="preto"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.025"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="2.5e-5" ixy="0.0" ixz="0.0"
+               iyy="2.5e-5" iyz="0.0" izz="2.5e-5"/>
+    </inertial>
+  </link>
+
+  <joint name="junta_roda_apoio" type="fixed">
+    <parent link="base_link"/>
+    <child  link="roda_apoio"/>
+    <origin xyz="0.12 0 -0.075" rpy="0 0 0"/>
+  </joint>
+
+</robot>

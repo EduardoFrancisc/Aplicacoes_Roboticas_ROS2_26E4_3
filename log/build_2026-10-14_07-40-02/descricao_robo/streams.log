@@ -1,0 +1,49 @@
+[1.800s] Invoking command in '/home/eduardo/ros2_ws/src/descricao_robo': PYTHONPATH=/home/eduardo/ros2_ws/build/descricao_robo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/descricao_robo build --build-base /home/eduardo/ros2_ws/build/descricao_robo/build install --record /home/eduardo/ros2_ws/build/descricao_robo/install.log --install-scripts $base/lib/descricao_robo --single-version-externally-managed install_data
+[2.252s] running egg_info
+[2.261s] creating ../../build/descricao_robo/descricao_robo.egg-info
+[2.267s] writing ../../build/descricao_robo/descricao_robo.egg-info/PKG-INFO
+[2.268s] writing dependency_links to ../../build/descricao_robo/descricao_robo.egg-info/dependency_links.txt
+[2.268s] writing entry points to ../../build/descricao_robo/descricao_robo.egg-info/entry_points.txt
+[2.268s] writing requirements to ../../build/descricao_robo/descricao_robo.egg-info/requires.txt
+[2.268s] writing top-level names to ../../build/descricao_robo/descricao_robo.egg-info/top_level.txt
+[2.268s] writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'
+[2.268s] reading manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'
+[2.268s] writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'
+[2.268s] running build
+[2.269s] running build_py
+[2.269s] creating /home/eduardo/ros2_ws/build/descricao_robo/build
+[2.269s] creating /home/eduardo/ros2_ws/build/descricao_robo/build/lib
+[2.271s] creating /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo
+[2.271s] copying descricao_robo/__init__.py -> /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo
+[2.274s] copying descricao_robo/controlador_turtle.py -> /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo
+[2.274s] running install
+[2.274s] running install_lib
+[2.282s] creating /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo
+[2.282s] copying /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo/__init__.py -> /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo
+[2.290s] copying /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo/controlador_turtle.py -> /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo
+[2.334s] byte-compiling /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo/__init__.py to __init__.cpython-310.pyc
+[2.340s] byte-compiling /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo/controlador_turtle.py to controlador_turtle.cpython-310.pyc
+[2.340s] running install_data
+[2.340s] creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index
+[2.340s] creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index
+[2.342s] creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index/packages
+[2.344s] copying resource/descricao_robo -> /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index/packages
+[2.346s] copying package.xml -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo
+[2.346s] creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+[2.346s] copying urdf/torre_sensor.urdf -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+[2.349s] copying urdf/robo_diff.urdf -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+[2.349s] copying urdf/torre_sensor.xacro -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+[2.349s] copying urdf/robo_diff.xacro -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf
+[2.353s] creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+[2.353s] copying launch/turtlesim_nav.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+[2.353s] copying launch/visualizar.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+[2.357s] copying launch/gazebo.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+[2.357s] copying launch/visualizar_xacro.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch
+[2.361s] creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/rviz
+[2.361s] copying rviz/robo_diff.rviz -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/rviz
+[2.361s] running install_egg_info
+[2.370s] Copying ../../build/descricao_robo/descricao_robo.egg-info to /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo-0.0.1-py3.10.egg-info
+[2.387s] running install_scripts
+[2.432s] Installing controlador_turtle script to /home/eduardo/ros2_ws/install/descricao_robo/lib/descricao_robo
+[2.432s] writing list of installed files to '/home/eduardo/ros2_ws/build/descricao_robo/install.log'
+[2.478s] Invoked command in '/home/eduardo/ros2_ws/src/descricao_robo' returned '0': PYTHONPATH=/home/eduardo/ros2_ws/build/descricao_robo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/descricao_robo build --build-base /home/eduardo/ros2_ws/build/descricao_robo/build install --record /home/eduardo/ros2_ws/build/descricao_robo/install.log --install-scripts $base/lib/descricao_robo --single-version-externally-managed install_data

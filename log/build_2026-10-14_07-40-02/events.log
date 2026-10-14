@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001893] (descricao_robo) JobQueued: {'identifier': 'descricao_robo', 'dependencies': OrderedDict()}
+[0.003397] (descricao_robo) JobStarted: {'identifier': 'descricao_robo'}
+[0.096321] (-) TimerEvent: {}
+[0.197334] (-) TimerEvent: {}
+[0.302166] (-) TimerEvent: {}
+[0.406290] (-) TimerEvent: {}
+[0.520385] (-) TimerEvent: {}
+[0.629307] (-) TimerEvent: {}
+[0.731264] (-) TimerEvent: {}
+[0.837273] (-) TimerEvent: {}
+[0.943557] (-) TimerEvent: {}
+[1.095488] (-) TimerEvent: {}
+[1.212987] (-) TimerEvent: {}
+[1.313479] (-) TimerEvent: {}
+[1.417554] (-) TimerEvent: {}
+[1.519173] (-) TimerEvent: {}
+[1.620477] (-) TimerEvent: {}
+[1.724014] (-) TimerEvent: {}
+[1.796096] (descricao_robo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/descricao_robo', 'build', '--build-base', '/home/eduardo/ros2_ws/build/descricao_robo/build', 'install', '--record', '/home/eduardo/ros2_ws/build/descricao_robo/install.log', '--install-scripts', '$base/lib/descricao_robo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduardo/ros2_ws/src/descricao_robo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'eduardo', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/eduardo/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/257/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eduardo', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.133.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/257/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/eduardo/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/257/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/257/usr/share/code/code', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1338', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus,guid=68a571f73d6139d0942aafb36acf5b2b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduardo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'eduardo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eduardofrancisco:@/tmp/.ICE-unix/1338,unix/eduardofrancisco:/tmp/.ICE-unix/1338', 'GTK_EXE_PREFIX': '/snap/code/257/usr', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9b9ae38d_fab1_4b98_a563_71518c94d10a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/257/usr/lib/locale', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/eduardo/snap/code/257/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.NWPSW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-40d9eca8de.sock', 'GNOME_TERMINAL_SERVICE': ':1.99', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/eduardo/snap/code/257/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eduardo/ros2_ws/build/descricao_robo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1001/bus,guid=68a571f73d6139d0942aafb36acf5b2b', 'XDG_DATA_DIRS': '/home/eduardo/snap/code/257/.local/share:/home/eduardo/snap/code/257:/snap/code/257/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduardo/ros2_ws/build/descricao_robo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.835101] (-) TimerEvent: {}
+[2.239368] (-) TimerEvent: {}
+[2.254233] (descricao_robo) StdoutLine: {'line': b'running egg_info\n'}
+[2.261153] (descricao_robo) StdoutLine: {'line': b'creating ../../build/descricao_robo/descricao_robo.egg-info\n'}
+[2.264452] (descricao_robo) StdoutLine: {'line': b'writing ../../build/descricao_robo/descricao_robo.egg-info/PKG-INFO\n'}
+[2.270374] (descricao_robo) StdoutLine: {'line': b'writing dependency_links to ../../build/descricao_robo/descricao_robo.egg-info/dependency_links.txt\n'}
+[2.271158] (descricao_robo) StdoutLine: {'line': b'writing entry points to ../../build/descricao_robo/descricao_robo.egg-info/entry_points.txt\n'}
+[2.271278] (descricao_robo) StdoutLine: {'line': b'writing requirements to ../../build/descricao_robo/descricao_robo.egg-info/requires.txt\n'}
+[2.271392] (descricao_robo) StdoutLine: {'line': b'writing top-level names to ../../build/descricao_robo/descricao_robo.egg-info/top_level.txt\n'}
+[2.271506] (descricao_robo) StdoutLine: {'line': b"writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'\n"}
+[2.271622] (descricao_robo) StdoutLine: {'line': b"reading manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'\n"}
+[2.271818] (descricao_robo) StdoutLine: {'line': b"writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'\n"}
+[2.271928] (descricao_robo) StdoutLine: {'line': b'running build\n'}
+[2.272036] (descricao_robo) StdoutLine: {'line': b'running build_py\n'}
+[2.272155] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/build/descricao_robo/build\n'}
+[2.272311] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/build/descricao_robo/build/lib\n'}
+[2.272419] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo\n'}
+[2.274153] (descricao_robo) StdoutLine: {'line': b'copying descricao_robo/__init__.py -> /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo\n'}
+[2.277438] (descricao_robo) StdoutLine: {'line': b'copying descricao_robo/controlador_turtle.py -> /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo\n'}
+[2.277609] (descricao_robo) StdoutLine: {'line': b'running install\n'}
+[2.277750] (descricao_robo) StdoutLine: {'line': b'running install_lib\n'}
+[2.285028] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo\n'}
+[2.285619] (descricao_robo) StdoutLine: {'line': b'copying /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo/__init__.py -> /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo\n'}
+[2.291759] (descricao_robo) StdoutLine: {'line': b'copying /home/eduardo/ros2_ws/build/descricao_robo/build/lib/descricao_robo/controlador_turtle.py -> /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo\n'}
+[2.318175] (descricao_robo) StdoutLine: {'line': b'byte-compiling /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo/__init__.py to __init__.cpython-310.pyc\n'}
+[2.339440] (-) TimerEvent: {}
+[2.343100] (descricao_robo) StdoutLine: {'line': b'byte-compiling /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo/controlador_turtle.py to controlador_turtle.cpython-310.pyc\n'}
+[2.343344] (descricao_robo) StdoutLine: {'line': b'running install_data\n'}
+[2.343470] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index\n'}
+[2.343648] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index\n'}
+[2.343768] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index/packages\n'}
+[2.346637] (descricao_robo) StdoutLine: {'line': b'copying resource/descricao_robo -> /home/eduardo/ros2_ws/install/descricao_robo/share/ament_index/resource_index/packages\n'}
+[2.348703] (descricao_robo) StdoutLine: {'line': b'copying package.xml -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo\n'}
+[2.349201] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf\n'}
+[2.349514] (descricao_robo) StdoutLine: {'line': b'copying urdf/torre_sensor.urdf -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf\n'}
+[2.349715] (descricao_robo) StdoutLine: {'line': b'copying urdf/robo_diff.urdf -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf\n'}
+[2.352376] (descricao_robo) StdoutLine: {'line': b'copying urdf/torre_sensor.xacro -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf\n'}
+[2.352514] (descricao_robo) StdoutLine: {'line': b'copying urdf/robo_diff.xacro -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf\n'}
+[2.356014] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch\n'}
+[2.356399] (descricao_robo) StdoutLine: {'line': b'copying launch/turtlesim_nav.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch\n'}
+[2.356532] (descricao_robo) StdoutLine: {'line': b'copying launch/visualizar.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch\n'}
+[2.360243] (descricao_robo) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch\n'}
+[2.360552] (descricao_robo) StdoutLine: {'line': b'copying launch/visualizar_xacro.launch.py -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch\n'}
+[2.364396] (descricao_robo) StdoutLine: {'line': b'creating /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/rviz\n'}
+[2.364680] (descricao_robo) StdoutLine: {'line': b'copying rviz/robo_diff.rviz -> /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/rviz\n'}
+[2.364806] (descricao_robo) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.373048] (descricao_robo) StdoutLine: {'line': b'Copying ../../build/descricao_robo/descricao_robo.egg-info to /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo-0.0.1-py3.10.egg-info\n'}
+[2.389969] (descricao_robo) StdoutLine: {'line': b'running install_scripts\n'}
+[2.433087] (descricao_robo) StdoutLine: {'line': b'Installing controlador_turtle script to /home/eduardo/ros2_ws/install/descricao_robo/lib/descricao_robo\n'}
+[2.435404] (descricao_robo) StdoutLine: {'line': b"writing list of installed files to '/home/eduardo/ros2_ws/build/descricao_robo/install.log'\n"}
+[2.448290] (-) TimerEvent: {}
+[2.480038] (descricao_robo) CommandEnded: {'returncode': 0}
+[2.549509] (-) TimerEvent: {}
+[2.627098] (descricao_robo) JobEnded: {'identifier': 'descricao_robo', 'rc': 0}
+[2.628576] (-) EventReactorShutdown: {}
