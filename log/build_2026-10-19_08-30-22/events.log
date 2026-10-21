@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.003217] (comunicacao_ros2) JobQueued: {'identifier': 'comunicacao_ros2', 'dependencies': OrderedDict()}
+[0.003705] (descricao_robo) JobQueued: {'identifier': 'descricao_robo', 'dependencies': OrderedDict()}
+[0.003748] (comunicacao_ros2) JobStarted: {'identifier': 'comunicacao_ros2'}
+[0.098148] (-) TimerEvent: {}
+[0.134621] (descricao_robo) JobStarted: {'identifier': 'descricao_robo'}
+[0.198319] (-) TimerEvent: {}
+[0.416100] (-) TimerEvent: {}
+[0.520822] (-) TimerEvent: {}
+[0.637250] (-) TimerEvent: {}
+[0.747896] (-) TimerEvent: {}
+[0.858247] (-) TimerEvent: {}
+[0.968191] (-) TimerEvent: {}
+[1.100598] (-) TimerEvent: {}
+[1.226486] (-) TimerEvent: {}
+[1.334826] (-) TimerEvent: {}
+[1.435699] (-) TimerEvent: {}
+[1.546908] (-) TimerEvent: {}
+[1.658293] (-) TimerEvent: {}
+[1.767958] (-) TimerEvent: {}
+[1.891803] (-) TimerEvent: {}
+[2.040695] (-) TimerEvent: {}
+[2.148762] (-) TimerEvent: {}
+[2.249900] (-) TimerEvent: {}
+[2.354745] (-) TimerEvent: {}
+[2.457091] (-) TimerEvent: {}
+[2.573740] (-) TimerEvent: {}
+[2.704473] (-) TimerEvent: {}
+[2.811516] (-) TimerEvent: {}
+[2.915234] (-) TimerEvent: {}
+[3.087210] (-) TimerEvent: {}
+[3.191856] (-) TimerEvent: {}
+[3.292914] (-) TimerEvent: {}
+[3.395214] (-) TimerEvent: {}
+[3.498137] (-) TimerEvent: {}
+[3.598993] (-) TimerEvent: {}
+[3.702892] (-) TimerEvent: {}
+[3.816251] (-) TimerEvent: {}
+[3.950008] (-) TimerEvent: {}
+[3.981931] (comunicacao_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/comunicacao_ros2', 'build', '--build-base', '/home/eduardo/ros2_ws/build/comunicacao_ros2/build', 'install', '--record', '/home/eduardo/ros2_ws/build/comunicacao_ros2/install.log', '--install-scripts', '$base/lib/comunicacao_ros2', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduardo/ros2_ws/src/comunicacao_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'eduardo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eduardo', 'OLDPWD': '/home/eduardo/ros2_ws/src/descricao_robo/urdf', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1371', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduardo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eduardo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eduardofrancisco:@/tmp/.ICE-unix/1342,unix/eduardofrancisco:/tmp/.ICE-unix/1342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3b866658_57bf_4079_9f53_383efeacbfbf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.VBKAX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eduardo/ros2_ws/build/comunicacao_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduardo/ros2_ws/build/comunicacao_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.035867] (descricao_robo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/descricao_robo', 'build', '--build-base', '/home/eduardo/ros2_ws/build/descricao_robo/build', 'install', '--record', '/home/eduardo/ros2_ws/build/descricao_robo/install.log', '--install-scripts', '$base/lib/descricao_robo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eduardo/ros2_ws/src/descricao_robo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'eduardo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eduardo', 'OLDPWD': '/home/eduardo/ros2_ws/src/descricao_robo/urdf', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1371', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eduardo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eduardo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eduardofrancisco:@/tmp/.ICE-unix/1342,unix/eduardofrancisco:/tmp/.ICE-unix/1342', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3b866658_57bf_4079_9f53_383efeacbfbf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.VBKAX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eduardo/ros2_ws/build/descricao_robo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduardo/ros2_ws/build/descricao_robo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.052375] (-) TimerEvent: {}
+[4.161481] (-) TimerEvent: {}
+[4.268064] (-) TimerEvent: {}
+[4.428758] (-) TimerEvent: {}
+[4.530275] (-) TimerEvent: {}
+[4.570582] (descricao_robo) StdoutLine: {'line': b'running egg_info\n'}
+[4.577533] (descricao_robo) StdoutLine: {'line': b'writing ../../build/descricao_robo/descricao_robo.egg-info/PKG-INFO\n'}
+[4.600793] (descricao_robo) StdoutLine: {'line': b'writing dependency_links to ../../build/descricao_robo/descricao_robo.egg-info/dependency_links.txt\n'}
+[4.602973] (descricao_robo) StdoutLine: {'line': b'writing entry points to ../../build/descricao_robo/descricao_robo.egg-info/entry_points.txt\n'}
+[4.605246] (descricao_robo) StdoutLine: {'line': b'writing requirements to ../../build/descricao_robo/descricao_robo.egg-info/requires.txt\n'}
+[4.605998] (descricao_robo) StdoutLine: {'line': b'writing top-level names to ../../build/descricao_robo/descricao_robo.egg-info/top_level.txt\n'}
+[4.614062] (comunicacao_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[4.618649] (comunicacao_ros2) StdoutLine: {'line': b'writing ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/PKG-INFO\n'}
+[4.626031] (comunicacao_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/dependency_links.txt\n'}
+[4.628932] (comunicacao_ros2) StdoutLine: {'line': b'writing entry points to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/entry_points.txt\n'}
+[4.629188] (descricao_robo) StdoutLine: {'line': b"reading manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'\n"}
+[4.631584] (comunicacao_ros2) StdoutLine: {'line': b'writing requirements to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/requires.txt\n'}
+[4.631810] (-) TimerEvent: {}
+[4.632575] (comunicacao_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/top_level.txt\n'}
+[4.633557] (descricao_robo) StdoutLine: {'line': b"writing manifest file '../../build/descricao_robo/descricao_robo.egg-info/SOURCES.txt'\n"}
+[4.634296] (descricao_robo) StdoutLine: {'line': b'running build\n'}
+[4.636400] (descricao_robo) StdoutLine: {'line': b'running build_py\n'}
+[4.640100] (descricao_robo) StdoutLine: {'line': b'running install\n'}
+[4.641025] (descricao_robo) StdoutLine: {'line': b'running install_lib\n'}
+[4.642343] (comunicacao_ros2) StdoutLine: {'line': b"reading manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'\n"}
+[4.653473] (descricao_robo) StdoutLine: {'line': b'running install_data\n'}
+[4.655575] (comunicacao_ros2) StdoutLine: {'line': b"writing manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'\n"}
+[4.662345] (comunicacao_ros2) StdoutLine: {'line': b'running build\n'}
+[4.662800] (comunicacao_ros2) StdoutLine: {'line': b'running build_py\n'}
+[4.668830] (comunicacao_ros2) StdoutLine: {'line': b'running install\n'}
+[4.669021] (comunicacao_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[4.674684] (descricao_robo) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.675011] (comunicacao_ros2) StdoutLine: {'line': b'running install_data\n'}
+[4.676974] (comunicacao_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.678164] (descricao_robo) StdoutLine: {'line': b"removing '/home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.680087] (descricao_robo) StdoutLine: {'line': b'Copying ../../build/descricao_robo/descricao_robo.egg-info to /home/eduardo/ros2_ws/install/descricao_robo/lib/python3.10/site-packages/descricao_robo-0.0.1-py3.10.egg-info\n'}
+[4.683123] (comunicacao_ros2) StdoutLine: {'line': b"removing '/home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.2-py3.10.egg-info' (and everything under it)\n"}
+[4.685721] (comunicacao_ros2) StdoutLine: {'line': b'Copying ../../build/comunicacao_ros2/comunicacao_ros2.egg-info to /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.2-py3.10.egg-info\n'}
+[4.699084] (descricao_robo) StdoutLine: {'line': b'running install_scripts\n'}
+[4.700595] (comunicacao_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.724695] (descricao_robo) StdoutLine: {'line': b'Installing controlador_turtle script to /home/eduardo/ros2_ws/install/descricao_robo/lib/descricao_robo\n'}
+[4.730827] (comunicacao_ros2) StdoutLine: {'line': b'Installing arvore_comportamento script to /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/comunicacao_ros2\n'}
+[4.731185] (descricao_robo) StdoutLine: {'line': b"writing list of installed files to '/home/eduardo/ros2_ws/build/descricao_robo/install.log'\n"}
+[4.732143] (-) TimerEvent: {}
+[4.733317] (comunicacao_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/eduardo/ros2_ws/build/comunicacao_ros2/install.log'\n"}
+[4.785175] (descricao_robo) CommandEnded: {'returncode': 0}
+[4.832768] (-) TimerEvent: {}
+[4.933547] (-) TimerEvent: {}
+[4.952156] (descricao_robo) JobEnded: {'identifier': 'descricao_robo', 'rc': 0}
+[4.954151] (comunicacao_ros2) CommandEnded: {'returncode': 0}
+[4.977383] (comunicacao_ros2) JobEnded: {'identifier': 'comunicacao_ros2', 'rc': 0}
+[4.980254] (-) EventReactorShutdown: {}

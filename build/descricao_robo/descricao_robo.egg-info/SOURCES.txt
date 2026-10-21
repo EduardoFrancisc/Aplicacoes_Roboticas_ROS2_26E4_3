@@ -18,5 +18,6 @@ resource/descricao_robo
 rviz/robo_diff.rviz
 urdf/robo_diff.urdf
 urdf/robo_diff.xacro
+urdf/robo_diff_gazebo.xacro
 urdf/torre_sensor.urdf
 urdf/torre_sensor.xacro

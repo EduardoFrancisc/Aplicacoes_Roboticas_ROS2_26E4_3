@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/comunicacao_ros2/comunicacao_ros2.egg-info
+writing ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/requires.txt
+writing top-level names to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/top_level.txt
+writing manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eduardo/ros2_ws/build/comunicacao_ros2/build
+creating /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib
+creating /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+copying comunicacao_ros2/__init__.py -> /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+copying comunicacao_ros2/arvore_comportamento.py -> /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+running install
+running install_lib
+creating /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+copying /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2/__init__.py -> /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+copying /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2/arvore_comportamento.py -> /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+byte-compiling /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/arvore_comportamento.py to arvore_comportamento.cpython-310.pyc
+running install_data
+creating /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index
+creating /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index/resource_index
+creating /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index/resource_index/packages
+copying resource/comunicacao_ros2 -> /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/eduardo/ros2_ws/install/comunicacao_ros2/share/comunicacao_ros2
+running install_egg_info
+Copying ../../build/comunicacao_ros2/comunicacao_ros2.egg-info to /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.2-py3.10.egg-info
+running install_scripts
+Installing arvore_comportamento script to /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+writing list of installed files to '/home/eduardo/ros2_ws/build/comunicacao_ros2/install.log'

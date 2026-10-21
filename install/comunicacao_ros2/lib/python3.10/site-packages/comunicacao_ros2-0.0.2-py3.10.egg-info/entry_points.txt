@@ -1,0 +1,3 @@
+[console_scripts]
+arvore_comportamento = comunicacao_ros2.arvore_comportamento:main
+

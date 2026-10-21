@@ -1,0 +1,37 @@
+[2.391s] Invoking command in '/home/eduardo/ros2_ws/src/comunicacao_ros2': PYTHONPATH=/home/eduardo/ros2_ws/build/comunicacao_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/comunicacao_ros2 build --build-base /home/eduardo/ros2_ws/build/comunicacao_ros2/build install --record /home/eduardo/ros2_ws/build/comunicacao_ros2/install.log --install-scripts $base/lib/comunicacao_ros2 --single-version-externally-managed install_data
+[2.677s] running egg_info
+[2.679s] creating ../../build/comunicacao_ros2/comunicacao_ros2.egg-info
+[2.679s] writing ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/PKG-INFO
+[2.680s] writing dependency_links to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/dependency_links.txt
+[2.681s] writing entry points to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/entry_points.txt
+[2.681s] writing requirements to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/requires.txt
+[2.682s] writing top-level names to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/top_level.txt
+[2.682s] writing manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+[2.685s] reading manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+[2.686s] writing manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+[2.688s] running build
+[2.688s] running build_py
+[2.688s] creating /home/eduardo/ros2_ws/build/comunicacao_ros2/build
+[2.689s] creating /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib
+[2.689s] creating /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+[2.690s] copying comunicacao_ros2/__init__.py -> /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+[2.691s] copying comunicacao_ros2/arvore_comportamento.py -> /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+[2.692s] running install
+[2.692s] running install_lib
+[2.694s] creating /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+[2.694s] copying /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2/__init__.py -> /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+[2.695s] copying /home/eduardo/ros2_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2/arvore_comportamento.py -> /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+[2.695s] byte-compiling /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/__init__.py to __init__.cpython-310.pyc
+[2.696s] byte-compiling /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/arvore_comportamento.py to arvore_comportamento.cpython-310.pyc
+[2.698s] running install_data
+[2.698s] creating /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index
+[2.699s] creating /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index/resource_index
+[2.699s] creating /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index/resource_index/packages
+[2.699s] copying resource/comunicacao_ros2 -> /home/eduardo/ros2_ws/install/comunicacao_ros2/share/ament_index/resource_index/packages
+[2.700s] copying package.xml -> /home/eduardo/ros2_ws/install/comunicacao_ros2/share/comunicacao_ros2
+[2.700s] running install_egg_info
+[2.705s] Copying ../../build/comunicacao_ros2/comunicacao_ros2.egg-info to /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.2-py3.10.egg-info
+[2.705s] running install_scripts
+[2.759s] Installing arvore_comportamento script to /home/eduardo/ros2_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[2.762s] writing list of installed files to '/home/eduardo/ros2_ws/build/comunicacao_ros2/install.log'
+[2.807s] Invoked command in '/home/eduardo/ros2_ws/src/comunicacao_ros2' returned '0': PYTHONPATH=/home/eduardo/ros2_ws/build/comunicacao_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/ros2_ws/install/comunicacao_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/comunicacao_ros2 build --build-base /home/eduardo/ros2_ws/build/comunicacao_ros2/build install --record /home/eduardo/ros2_ws/build/comunicacao_ros2/install.log --install-scripts $base/lib/comunicacao_ros2 --single-version-externally-managed install_data

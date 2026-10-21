@@ -8,6 +8,7 @@
 /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf/robo_diff.urdf
 /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf/torre_sensor.xacro
 /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf/robo_diff.xacro
+/home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/urdf/robo_diff_gazebo.xacro
 /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch/turtlesim_nav.launch.py
 /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch/visualizar.launch.py
 /home/eduardo/ros2_ws/install/descricao_robo/share/descricao_robo/launch/gazebo.launch.py
