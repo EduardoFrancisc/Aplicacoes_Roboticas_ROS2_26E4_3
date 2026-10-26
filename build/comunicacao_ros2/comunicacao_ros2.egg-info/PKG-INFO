@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: comunicacao-ros2
 Version: 0.0.2
-Summary: Comunicacao ROS 2 e behavior tree (DR3 / TP2 Ex.2).
+Summary: Comunicacao ROS 2, behavior tree, percepcao e navegacao 2D.
 Home-page: UNKNOWN
 Maintainer: Mario Pego
 Maintainer-email: mario.pego@prof.infnet.edu.br

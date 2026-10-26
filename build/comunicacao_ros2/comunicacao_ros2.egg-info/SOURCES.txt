@@ -10,4 +10,11 @@ setup.py
 ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/zip-safe
 comunicacao_ros2/__init__.py
 comunicacao_ros2/arvore_comportamento.py
+comunicacao_ros2/controlador_navegacao.py
+comunicacao_ros2/detector_objetos.py
+comunicacao_ros2/gerador_waypoints.py
+comunicacao_ros2/monitor_progresso.py
+comunicacao_ros2/painel_status.py
+comunicacao_ros2/publicar_imagem_teste.py
+launch/navegacao_turtlesim.launch.py
 resource/comunicacao_ros2

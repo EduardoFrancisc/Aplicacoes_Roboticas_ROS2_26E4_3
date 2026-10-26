@@ -2,7 +2,7 @@
 <package format="3">
   <name>comunicacao_ros2</name>
   <version>0.0.2</version>
-  <description>Behavior tree em Python puro (DR3 / TP2 Ex.2).</description>
+  <description>Behavior tree, percepcao com cv_bridge e navegacao 2D (DR3 / TP2).</description>
   <maintainer email="mario.pego@prof.infnet.edu.br">Mario Pego</maintainer>
   <license>MIT</license>
 
@@ -10,7 +10,10 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>std_srvs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>turtlesim</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>

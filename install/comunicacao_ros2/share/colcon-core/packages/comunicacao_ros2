@@ -1,1 +1,1 @@
-geometry_msgs:rclpy:std_msgs:std_srvs:turtlesim
+cv_bridge:geometry_msgs:python3-opencv:rclpy:sensor_msgs:std_msgs:std_srvs:turtlesim
